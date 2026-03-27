@@ -2,17 +2,17 @@ import 'dotenv/config';
 const _prefixes = process.env.PREFIXES ? process.env.PREFIXES.split(',') : ['.', '!', '/', '#'];
 const config = {
     // Bot Identity
-    botName: process.env.BOT_NAME || 'MEGA-MD',
-    botOwner: process.env.BOT_OWNER || 'Qasim Ali',
-    ownerNumber: process.env.OWNER_NUMBER || '923051391007',
-    author: process.env.AUTHOR || 'GlobalTechInfo',
-    packname: process.env.PACKNAME || 'MEGA-MD',
+    botName: process.env.BOT_NAME || 'captain',
+    botOwner: process.env.BOT_OWNER || 'captain',
+    ownerNumber: process.env.OWNER_NUMBER || '923101136915',
+    author: process.env.AUTHOR || 'CAPTAIN',
+    packname: process.env.PACKNAME || 'CAPTAIN',
     description: process.env.DESCRIPTION || 'High performance multi-device WhatsApp bot',
     version: '6.0.0',
     // Bot Config
     prefixes: _prefixes,
     prefix: _prefixes[0],
-    commandMode: process.env.COMMAND_MODE || 'public',
+    commandMode: process.env.COMMAND_MODE || 'private',
     timeZone: process.env.TIMEZONE || 'Asia/Karachi',
     // Links
     channelLink: process.env.CHANNEL_LINK || 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07',
